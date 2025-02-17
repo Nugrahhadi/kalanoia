@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lounge - Kalanoia Coffee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/lounge.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-logo">
+        <img src="../images/logo.png" alt="Kalanoia Logo" />
+      </div>
+      <div class="nav-right">
+        <div class="nav-links">
+          <a href="#lounge" class="active">Lounge</a>
+          <a href="menu.html">Menu</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-social">
+          <a href="#" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>KALANOIA</h1>
+        <p>Brewed by Nature, Perfected for You.</p>
+      </div>
+      <div calss="hero-overlay"></div>
+      <img src="../images/hero.png" alt="Coffee" class="hero-image" />
+    </section>
+
+    <section class="layer" id="lounge">
+      <!-- Story Section -->
+      <section class="story" id="lounge">
+        <h2>A Story of Taste</h2>
+        <div class="story-content">
+          <div class="story-text">
+            <span class="label">READY TO WELCOME</span>
+            <h3>A perfect brew</h3>
+            <h4>for every moment.</h4>
+            <p>
+              Kalanoia brings the essence of nature into every cup, crafting
+              signature coffee that complements every moment. From the crisp
+              morning air to the golden hues of sunset, we serve more than just
+              coffee—we offer an experience.
+            </p>
+            <button
+              class="btn-coffee"
+              onclick="window.location.href='menu.html#coffee'"
+            >
+              Go to Coffee
+            </button>
+          </div>
+          <div class="story-image">
+            <img src="../images/kopi.png" alt="Coffee Selection" />
+          </div>
+        </div>
+      </section>
+
+      <section class="dish" id="lounge">
+        <div class="dish-content">
+          <div class="dish-image">
+            <img src="../images/dish.png" alt="Quality Food" />
+          </div>
+          <div class="dish-text">
+            <span class="label">FROM SIPS TO BITES, WE SERVE DELIGHT</span>
+            <h2>Finest quality ingredient</h2>
+            <h3>in every bite.</h3>
+            <p>
+              More than just delicious bites—discover flavors crafted with love
+              and nature's inspiration.
+            </p>
+            <button
+              class="btn-coffee"
+              onclick="window.location.href='menu.html#dish'"
+            >
+              Go to Dish
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Nature Section -->
+      <section class="nature" id="lounge">
+        <div class="nature-content">
+          <div class="nature-image">
+            <img src="../images/spot.png" alt="Cafe Interior" />
+          </div>
+          <div class="nature-text">
+            <h2>Where Nature's Beauty</h2>
+            <h3>Meets Cozy Comfort</h3>
+            <p>
+              Nestled in a serene natural setting, Kalanoia provides a cozy
+              escape from the city's hustle. Whether you're gathering with
+              friends or savoring a quiet moment alone, our signature coffee and
+              breathtaking views create the perfect retreat.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="../images/logo.png" alt="Kalanoia Logo" />
+        </div>
+
+        <div class="footer-section">
+          <h4>Costumer Center</h4>
+          <p>
+            <i class="fas fa-map-marker-alt"></i>
+            Kalanoia Coffee, Cilaku, Kec. Curug, Kota Serang, Banten 42171
+          </p>
+          <p>
+            <i class="fab fa-whatsapp"></i>
+            081287137020
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Viewer Guides</h4>
+          <ul>
+            <li><a href="#lounge">Lounge</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024 KALANOIA COFFEE. All Rights Reserved</p>
+          <div class="footer-social">
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>

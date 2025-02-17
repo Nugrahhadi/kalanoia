@@ -1,0 +1,176 @@
+.nav-links a[href="./menu.html"] {
+  color: #c9fed7;
+}
+
+.nav-links a[href="./menu.html"]::after {
+  transform: scaleX(1);
+}
+
+.menu-header {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefefe;
+  margin-top: 80px;
+  position: relative;
+}
+
+.menu-title {
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0 0 25px 25px;
+}
+
+.menu-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.menu-section {
+  margin-bottom: 4rem;
+}
+
+.menu-section h2 {
+  font-size: 1.5rem;
+  color: #216a35;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.menu-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.menu-item img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.menu-item-info {
+  flex: 1;
+}
+
+.menu-item-info h3 {
+  font-size: 1.1rem;
+  color: #216a35;
+  margin-bottom: 0.25rem;
+}
+
+.menu-item-info p {
+  font-size: 1rem;
+  color: #b32222;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.menu-item-info span {
+  font-size: 0.9rem;
+  color: #666;
+  display: block;
+  line-height: 1.4;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-logo img {
+    max-width: 100%;
+    height: 70px;
+  }
+
+  .nav-links a {
+    font-size: 20px;
+  }
+
+  .social-icon i {
+    font-size: 23px;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu-header {
+    height: 250px;
+    margin-top: 75px;
+  }
+
+  .menu-container {
+    padding: 3rem 2rem;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .menu-item {
+    gap: 1rem;
+  }
+
+  .menu-item img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .menu-item-info h3 {
+    font-size: 1rem;
+  }
+
+  .menu-item-info span {
+    font-size: 0.85rem;
+  }
+
+  .footer-logo img {
+    max-width: 100%;
+    height: 100px;
+  }
+
+  .footer-section {
+    flex-basis: 30%;
+    margin-bottom: 1rem;
+  }
+
+  .footer-section p {
+    font-size: 16px;
+  }
+
+  .footer-section ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-header {
+    margin-top: -118px;
+  }
+
+  .menu-title {
+    max-width: 100%;
+    margin-bottom: -170px;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-container {
+    padding: 2rem 1rem;
+  }
+
+  .menu-item {
+    flex-direction: row;
+  }
+}
